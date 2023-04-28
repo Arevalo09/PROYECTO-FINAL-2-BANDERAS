@@ -39,7 +39,7 @@
         "iso639_1": "uz",
         "iso639_2": "uzb",
         "name": "Uzbek",
-        "nativeName": "Oʻzbek"
+        "nativeName": "O'zbek"
       },
       {
         "iso639_1": "tk",
@@ -259,7 +259,7 @@
         "name": "Arab League",
         "otherNames": [
           "جامعة الدول العربية",
-          "Jāmiʻat ad-Duwal al-ʻArabīyah",
+          "Jāmi'at ad-Duwal al-'Arabīyah",
           "League of Arab States"
         ]
       }
@@ -387,7 +387,7 @@
     "alpha3Code": "AGO",
     "callingCodes": ["244"],
     "capital": "Luanda",
-    "altSpellings": ["AO", "República de Angola", "ʁɛpublika de an'ɡɔla"],
+    "altSpellings": ["AO", "República de Angola", "ʁɛpublika de an'gola"],
     "subregion": "Middle Africa",
     "region": "Africa",
     "population": 32866268,
@@ -1080,7 +1080,7 @@
     "demonym": "Bahraini",
     "area": 765,
     "timezones": ["UTC+03:00"],
-    "nativeName": "‏البحرين",
+    "nativeName": "البحرين",
     "numericCode": "048",
     "flags": {
       "svg": "https://flagcdn.com/bh.svg",
@@ -1121,7 +1121,7 @@
         "name": "Arab League",
         "otherNames": [
           "جامعة الدول العربية",
-          "Jāmiʻat ad-Duwal al-ʻArabīyah",
+          "Jāmi'at ad-Duwal al-'Arabīyah",
           "League of Arab States"
         ]
       }
@@ -1643,7 +1643,7 @@
     "gini": 37.4,
     "timezones": ["UTC+06:00"],
     "borders": ["CHN", "IND"],
-    "nativeName": "ʼbrug-yul",
+    "nativeName": "'brug-yul",
     "numericCode": "064",
     "flags": {
       "svg": "https://flagcdn.com/bt.svg",

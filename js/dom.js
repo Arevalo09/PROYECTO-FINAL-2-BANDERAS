@@ -61,11 +61,11 @@ const showbigcard = (element) => {
 
                 <div class="col">
 
-                  <p class="mb-1">Native Name: ${element[0].name.nativeName}</p>
-                  <p class="mb-1">Population: ${element[0].population}</p>
-                  <p class="mb-1">Region: ${element[0].region}</p>
-                  <p class="mb-1">Sub Region: ${element[0].subregion}</p>
-                  <p class="mb-1">Capital: ${element[0].capital}</p>
+                  <p class="mb-1"> Common Name: ${element[0].name}</p>
+                  <p class="mb-1"> Population: ${element[0].population}</p>
+                  <p class="mb-1"> Region: ${element[0].region}</p>
+                  <p class="mb-1"> Sub Region: ${element[0].subregion}</p>
+                  <p class="mb-1"> Capital: ${element[0].capital}</p>
 
                 </div>
 
