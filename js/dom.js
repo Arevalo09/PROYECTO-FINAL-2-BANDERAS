@@ -72,9 +72,9 @@ const showbigcard = (element) => {
 
                 <div class="col">
 
-                  <p class="mb-1">Top Level Doamin: ${element[0].tld}</p>
-                  <p class="mb-1">Currencies: ${element[0].currencies}</p>
-                  <p class="mb-1">Language: ${element[0].languages}</p>
+                  <p class="mb-1"> Top Level Doamin: ${element[0].tld} </p>
+                  <p class="mb-1"> Currencies: ${element[0].currencies} </p>
+                  <p class="mb-1"> Language: ${element[0].languages} </p>
 
                 </div>
 
