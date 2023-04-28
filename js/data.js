@@ -24,7 +24,7 @@ const regionfilter = (arr, filtro) => {
 }
 
 const namefilter = (arr, filtro) => {
-    let filtered = arr.filter (element =>element.name.common.includes(filtro));
+    let filtered = arr.filter (element =>element.name.common.toLowerCase().includes(filtro.toLowerCase()));
     return filtered;
 }
 

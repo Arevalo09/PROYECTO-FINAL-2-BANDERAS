@@ -25,6 +25,7 @@ search.addEventListener('keyup', () => {
 
     const filtername = filtro === '' ? datos : data.namefilter(datos, filtro);
     dom.showCards(filtername);
+    showCanvasInfo()
 })
 
 // Filtro de regiones
@@ -42,25 +43,31 @@ list.forEach((region) => {
         dropdown.textContent = `${filtro === "All" ? "Filter by region" : filtro}`;
 
         dom.showCards(filterregion);
+        showCanvasInfo()
 
     })
 })
 
-// Para mostrar la información de un país
-const cardcountrys = [...countryscont.children];
+showCanvasInfo()
 
-cardcountrys.forEach((card) => {
-    card.addEventListener('click', () => {
-        let selectedcountry = '';
-        selectedcountry = card.children[0];
-        selectedcountry = selectedcountry.children[1];
-        selectedcountry = selectedcountry.children[0];
-        selectedcountry = selectedcountry.textContent;
-        
-        let filtered = data.countryfilter(datos, selectedcountry);
-        dom.showbigcard(filtered)
-        dom.borderCountries(filtered);
-    })
-});
+function showCanvasInfo() {
+    // Para mostrar la información de un país
+    const cardcountrys = [...countryscont.children];
+
+    cardcountrys.forEach((card) => {
+        card.addEventListener('click', () => {
+            let selectedcountry = '';
+            selectedcountry = card.children[0];
+            selectedcountry = selectedcountry.children[1];
+            selectedcountry = selectedcountry.children[0];
+            selectedcountry = selectedcountry.textContent;
+            
+            let filtered = data.countryfilter(datos, selectedcountry);
+            dom.showbigcard(filtered)
+            dom.borderCountries(filtered);
+        })
+    });
 
 
+
+}
